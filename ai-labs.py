@@ -7,7 +7,11 @@ print("How is your day going?")
 
 
 # Write code that displays your favorite color:
-print("my favourite color is Sapphire BlueS: Sapphire Blue")
+# Assign your favorite color to a variable
+favorite_color = "blue"
+
+# Print your favorite color
+print("My favorite color is", favorite_color + ".")
 
 # Write code that answers the question "How are you feeling today?":
 
