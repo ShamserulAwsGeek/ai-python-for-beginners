@@ -8,7 +8,7 @@ print("How is your day going?")
 
 # Write code that displays your favorite color:
 # Assign your favorite color to a variable
-favorite_color = "blue"
+favorite_color = "Sapphire blue"
 
 # This is an example of code with multiple
 # comments, including this one which
@@ -17,7 +17,7 @@ print("Hello, Shamserul_Maheen!")
 print("How is your day going?")
 
 # Write code that displays your favorite color:
-favorite_color = "blue"  # Assign your favorite color to a variable
+favorite_color = "Sapphire blue"  # Assign your favorite color to a variable
 
 # Print your favorite color
 print(f"My favorite color is {favorite_color}.")
