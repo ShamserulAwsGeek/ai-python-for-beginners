@@ -17,7 +17,7 @@ print(f"Your lucky number is {Lucky_number}!")
 # Use print_llm_response() to print a poem with the specified number of lines. Use the 
 # prompt variable to save your prompt before calling print_llm_response()
 
-number_of_lines = "10"
+number_of_lines = "12"
 prompt = f"How many number_of_lines in the peom"
 print_llm_response(prompt)
 
