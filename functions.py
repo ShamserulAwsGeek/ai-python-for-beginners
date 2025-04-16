@@ -1,7 +1,7 @@
 string_length = len("Hello World!")
 print(string_length)
 
-name = "Tommy"
+name = "Tony"
 potatoes = 4.75
 prompt = f"""Write a couplet about my friend {name} who has about {round(potatoes)} potatoes"""
 response = get_llm_response(prompt)
