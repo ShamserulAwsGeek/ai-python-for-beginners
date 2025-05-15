@@ -11,7 +11,7 @@ print(response)
 # Enter one of your favorite numbers. Multiply the result by 10 and save it to a variable called 'lucky_number'.
 # Print a message saying "Your lucky number is [lucky_number]!"
  
-Lucky_number = 3*10
+Lucky_number = 4*10
 print(f"Your lucky number is {Lucky_number}!")
 
 # Use print_llm_response() to print a poem with the specified number of lines. Use the 
