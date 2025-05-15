@@ -31,7 +31,7 @@ print(my_name)
 
 # Enter your favorite number below and store it in a variable called 'fav_num'. 
 # Print out a message telling you what your favorite number plus 10 is.
-fav_num = fav_num + 100
+fav_num = fav_num + 101
 print(f"Your favorite number plus 10 is {fav_num}")
 
 # Create two variables, 'countries_visited' and 'countries_to_visit' and assign them the number of
