@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://api.weatherapi.com/v1/current.json?key=d801ce283c514fa8ae7122728252906&q=Bengaluru&aqi=no'
+url = 'http://api.weatherapi.com/v1/current.json?key=d801ce183c514fa8ae7122728252906&q=Bengaluru&aqi=no'
 
 response = requests.get(url)
 
