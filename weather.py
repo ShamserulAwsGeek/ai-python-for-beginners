@@ -4,7 +4,7 @@ if tempreture > 80:
     print("stay inside")
 print("Enjoy your day with a cup of tea & beautiful wife")
 
-
+#to chcek if else statement:
 tempreture = 75
 if tempreture > 80:
     print("its too hot!")
@@ -12,6 +12,7 @@ if tempreture > 80:
 else: 
     print("enjoy outdoors!")
 
+#elif added:
 tempreture = 50
 if tempreture > 80:
     print("its too hot!")
