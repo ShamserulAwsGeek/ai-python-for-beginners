@@ -1,23 +1,13 @@
-tempreture = 95
-if tempreture > 80:
-    print("its too hot!")
-    print("stay inside")
-print("Enjoy your day with a cup of tea & beautiful wife")
+import requests
 
-#to chcek if else statement:
-tempreture = 75
-if tempreture > 80:
-    print("its too hot!")
-    print("stay inside")
-else: 
-    print("enjoy outdoors!")
+url = 'http://api.weatherapi.com/v1/current.json?key=d801ce283c514fa8ae7122728252906&q=Bengaluru&aqi=no'
 
-#elif added:
-tempreture = 50
-if tempreture > 80:
-    print("its too hot!")
-    print("stay inside")
-elif tempreture < 60:
-    print("its too cold")
-else: 
-    print("enjoy outdoors!")
+response = requests.get(url)
+
+weather_json = response.json()
+
+temp = weather_json.get('current').get('temp_c')
+
+description = weather_json.get('current').get('condition').get('text')
+
+print("Todays's weather in Bengaluru is ", description , temp, 'degress' )
