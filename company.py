@@ -20,7 +20,7 @@ class Company:
         print('paying employees:')
         for i in self.employees:
             print('paycheck for:', i.fname, i.lname)
-            print(f'amount:, {i.calculate_paycheck()}')
+            print(f'amount:, ${i.calculate_paycheck():,.2f}')
             print('----------------------')
         
 
