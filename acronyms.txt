@@ -1,0 +1,4 @@
+UX-User Experience
+ML -Machien Learning
+IDE-Integrated Development Environment
+IAAS-Infrastructure as a Service
