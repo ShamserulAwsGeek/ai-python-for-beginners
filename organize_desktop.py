@@ -16,6 +16,10 @@ FILE_CATEGORIES = {
 DESKTOP_PATH = Path.home() / "Desktop"
 print('desktop path:', DESKTOP_PATH)
 
+# desktop_path = os.path.expanduser("~/Desktop")
+# print("desktop path:", desktop_path )
+
+
 def organize_files(base_path=DESKTOP_PATH):
     if not base_path.exists():
         print(f"Path does not exist: {base_path}")
