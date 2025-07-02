@@ -14,6 +14,7 @@ FILE_CATEGORIES = {
 
 # Get desktop path for current user
 DESKTOP_PATH = Path.home() / "Desktop"
+print('desktop path:', DESKTOP_PATH)
 
 def organize_files(base_path=DESKTOP_PATH):
     if not base_path.exists():
