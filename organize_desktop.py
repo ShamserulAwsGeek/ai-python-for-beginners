@@ -19,7 +19,7 @@ print('desktop path:', DESKTOP_PATH)
 # desktop_path = os.path.expanduser("~/Desktop")
 # print("desktop path:", desktop_path )
 
-
+#Trying to organize files from desktop
 def organize_files(base_path=DESKTOP_PATH):
     if not base_path.exists():
         print(f"Path does not exist: {base_path}")
